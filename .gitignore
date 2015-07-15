@@ -1,0 +1,9 @@
+# Ignore npm generated files
+npm-debug.log
+
+# Ignore production files - will be built in heroku
+public/
+
+# Dependency directories
+node_modules/
+bower_components/
