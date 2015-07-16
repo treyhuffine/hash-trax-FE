@@ -2,7 +2,7 @@
   angular.module('hashtrax.controllers.dashboard', [])
   .controller('DashboardCtrl', function($scope, $http, $stateParams) {
     console.log($stateParams);
-    $http.get('http://hashtrax.herokuapp.com/dashboard/' + $stateParams.hash)
+    $http.get('http://hashtraxserver.herokuapp.com/dashboard/' + $stateParams.hash)
     .success(function(data){
       var test = data[0].text.length;
       var div = d3.select("#d3")
