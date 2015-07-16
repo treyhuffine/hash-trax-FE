@@ -11,7 +11,7 @@
           templateUrl: 'templates/home.html',
         })
         .state('dashboard', {
-          url: '/dashboard',
+          url: '/dashboard/:hash',
           templateUrl: 'templates/dashboard.html',
           controller: 'DashboardCtrl'
         })
