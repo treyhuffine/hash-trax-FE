@@ -16,13 +16,18 @@
           url: '/dashboard',
           templateUrl: 'templates/dashboard.html',
         });
+      $stateProvider
+        .state('support', {
+          url: '/support',
+          templateUrl: 'templates/support.html',
+        });
 
       $locationProvider.html5Mode({
         enabled: false,
         requireBase: false
       });
 
-      $locationProvider.hashPrefix('!');        
+      $locationProvider.hashPrefix('!');
 
     });
 })();
