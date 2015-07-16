@@ -31,6 +31,23 @@ body {
   margin-bottom: 15px;
 }
 
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+
+
 .btn-row {
   position: fixed;
   margin-top: 20px;
