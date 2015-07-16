@@ -9,9 +9,13 @@
         var user = $scope.user
         user.token = response.id;
 
-        $http.post("http://localhost:3000/recordService", user)
-          .success(function() { })
-          .catch(function() { })
+        $http.post("http://localhost:3000/theMoney", user)
+          .success(function() {
+            console.log(user);
+          })
+          .catch(function(err) { 
+            console.log(err);
+          })
       }
     };
 
