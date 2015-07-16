@@ -1,44 +1,47 @@
 <div class="container">
-  Amount: $49.95/month
-  <form id="payment-form" action="" method="POST" ng-submit="stripeToken()" class="form-horizontal">
-    <span class="payment-errors"></span>
+  <h2 class="text-center">Amount: $49.95/month</h2>
+  <div class="col-sm-6 col-sm-offset-3">
+    
+    <form id="payment-form" action="" method="POST" ng-submit="stripeToken()" class="form-horizontal">
+      <span class="payment-errors"></span>
 
-    <div class="form-group">
-      <label>
-        <span>Email</span>
-        <input type="email" class="form-control" ng-model="user.email" />
-      </label>
-    </div>
+      <div class="form-group">
+        <label>
+          <span>Email</span>
+          <input type="email" class="form-control" ng-model="user.email" />
+        </label>
+      </div>
 
-    <div class="form-group">
-      <label>
-        <span>Search Term</span>
-        <input type="text" class="form-control" ng-model="user.searchTerm" />
-      </label>
-    </div>
+      <div class="form-group">
+        <label>
+          <span>Search Term</span>
+          <input type="text" class="form-control" ng-model="user.searchTerm" />
+        </label>
+      </div>
 
-    <div class="form-group">
-      <label>
-        <span>Card Number</span>
-        <input type="text" size="20" data-stripe="number" class="form-control" />
-      </label>
-    </div>
+      <div class="form-group">
+        <label>
+          <span>Card Number</span>
+          <input type="text" size="20" data-stripe="number" class="form-control" />
+        </label>
+      </div>
 
-    <div class="form-group">
-      <label>
-        <span>CVC</span>
-        <input type="text" size="4" data-stripe="cvc" class="form-control" />
-      </label>
-    </div>
+      <div class="form-group">
+        <label>
+          <span>CVC</span>
+          <input type="text" size="4" data-stripe="cvc" class="form-control" />
+        </label>
+      </div>
 
-    <div class="form-group">
-      <label>
-        <span>Expiration (MM/YYYY)</span>
-      </label>
-      <input type="text" size="2" data-stripe="exp-month" class="form-control" />
-      <input type="text" size="4" data-stripe="exp-year" class="form-control" />
-    </div>
+      <div class="form-group">
+        <label>
+          <span>Expiration (MM/YYYY)</span>
+        </label>
+        <input type="text" size="2" data-stripe="exp-month" class="form-control" />
+        <input type="text" size="4" data-stripe="exp-year" class="form-control" />
+      </div>
 
-    <button type="submit" class="btn btn-success">Submit Payment</button>
-  </form>
+      <button type="submit" class="btn btn-success">Submit Payment</button>
+    </form>
+  </div>
 </div>
