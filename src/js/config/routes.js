@@ -9,17 +9,19 @@
         .state('home', {
           url: '/',
           templateUrl: 'templates/home.html',
-        });
-
-      $stateProvider
+        })
         .state('dashboard', {
           url: '/dashboard',
           templateUrl: 'templates/dashboard.html',
-        });
-      $stateProvider
+        })
         .state('support', {
           url: '/support',
           templateUrl: 'templates/support.html',
+        })
+        .state('buy', {
+          url: '/buy',
+          templateUrl: 'templates/buy.html',
+          controller: 'BuyCtrl'
         });
       $stateProvider
         .state('register', {
