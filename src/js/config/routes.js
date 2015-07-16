@@ -21,6 +21,11 @@
           url: '/support',
           templateUrl: 'templates/support.html',
         });
+      $stateProvider
+        .state('register', {
+          url: '/register',
+          templateUrl: 'templates/registration.html',
+        });
 
       $locationProvider.html5Mode({
         enabled: false,
