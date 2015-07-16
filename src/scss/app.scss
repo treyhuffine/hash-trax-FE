@@ -1,3 +1,194 @@
-h1{
-  color:red;
+body {
+  background-color: rgb(50, 50, 50) !important;
+  color: #F2F0F0;
+}
+
+.slide h1 {
+  color: white;
+  font-size: 6em;
+  letter-spacing: 0.3em;
+}
+
+.featurette {
+  background: #3D2945;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.featurette h1 {
+  font-size: 4em;
+}
+
+.featurette h2 {
+  font-size: 2.8em;
+}
+
+.featurette p {
+  font-size: 1.5em;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+
+.btn-row {
+  position: fixed;
+  margin-top: 20px;
+  margin-right: 20px;
+  top: 0;
+  right: 0;
+}
+
+.slide-one {
+  background-image: url("http://i.imgur.com/L3lHrTg.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #0084B4;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.slide-one img {
+  width: 300px;
+}
+
+
+.slide-two {
+  background-color: #0084B4;
+  /*background-color: #0084B4;*/
+}
+
+.slide-three {
+  background-color: grey;
+}
+
+.slogan {
+  color: white;
+  margin-left: 100px;
+}
+
+.slogan-one {
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+.slogan-two {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.slide h1 {
+ color: white;
+ font-size: 6em;
+}
+
+.slide-one {
+ background-color: #0084B4 ;
+ /*background-color: #0084B4 ;*/
+
+}
+
+
+.slide-two {
+ background-color: green;
+}
+
+.slide-three {
+ background-color: grey;
+}
+
+body {
+ background-color: #d3d3d3 ;
+}
+
+
+ /**/
+/*sidebar*/
+
+
+.hashtraxbrand {
+ font-size: 28px;
+ font-family: Monaco;
+}
+.navbar-header {
+ background-color: #778899 ;
+ margin-top: 20px;
+}
+.traxbar {
+ color: black;
+ margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+.navbar-collapse {
+ font-size: 20px;
+ background-color: #778899 ;
+ height: 100vh;
+ box-shadow: none;
+ max-height: none;
+ padding-left:0;
+ padding-right:0;
+ width: 200px;
+ margin-top: 2%;
+}
+
+.leftnavbar {
+ background-color: #778899 ;
+ width: 200px;
+ height: 100vh;
+}
+.navbar-collapse.collapse {
+ display: block !important;
+ width: auto !important;
+ padding-bottom: 0;
+ overflow: visible !important;
+}
+.navbar-collapse.in {
+ overflow-x: visible;
+}
+
+.twitterbox {
+ top: fixed;
+ margin-right: 15px;
+ width: 175px;
+ float: right;
+}
+.twittercollapse {
+ float: right;
+}
+
+.navbar
+{
+  max-width:300px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+   margin-right: 0;
+}
 }

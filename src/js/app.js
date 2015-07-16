@@ -2,8 +2,7 @@
   'use strict';
 
   angular.module('hashtrax', [
-    // 'ui.router',
-
+    'ui.router',
     'hashtrax.config',
     'hashtrax.controllers',
     'hashtrax.models',

@@ -21,6 +21,9 @@ var paths = {
   ],
   appJS: [
     'bower_components/angular/angular.js',
+    'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+    // 'bower_components/jquery/dist/jquery.min.js',    
+    'bower_components/fullpage.js/jquery.fullPage.min.js',
     src_path + '/js/app.js',
     src_path + '/js/**/*.js'
   ]
@@ -68,7 +71,7 @@ gulp.task('copy', function() {
 
 // Copies templates
 gulp.task('copy:templates', function() {
-  return gulp.src('./client/templates/**/*.html')
+  return gulp.src(src_path + '/templates/**/*.html')
     .pipe(gulp.dest(build_path + '/templates'));
 });
 

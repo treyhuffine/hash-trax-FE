@@ -1,0 +1,30 @@
+
+    
+  <div id="myContainer">
+    <div class="section">
+      <div class="slide slide-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-3">
+              <img src="img/logo.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-md-offset-1 col-md-8">
+              <h1 class="text-center">hashtrax</h1>
+                <div class="slogan slogan-one">Easily keep track of your brand.</div>
+                <div class="slogan slogan-two">Twitter analytics for business.</div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide-two">
+        <h1 class="text-center">Page2</h1>
+      </div>
+      <div class="slide slide-three">
+         <h1 class="text-center">Page 3</h1>
+      </div>
+    </div>
+  </div>
+  <!-- 
+  Place the rest of the site.
+  <p>Just a demo</p> -->
