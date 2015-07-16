@@ -79,7 +79,7 @@ gulp.task('copy:templates', function() {
 gulp.task('server', ['build'], function() {
   gulp.src(build_path)
     .pipe($.webserver({
-      port: 8080,
+      port: 8000,
       host: 'localhost',
       fallback: 'index.html',
       livereload: true,

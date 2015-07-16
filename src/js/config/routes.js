@@ -13,6 +13,7 @@
         .state('dashboard', {
           url: '/dashboard',
           templateUrl: 'templates/dashboard.html',
+          controller: 'DashboardCtrl'
         })
         .state('support', {
           url: '/support',
