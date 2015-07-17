@@ -39,7 +39,7 @@ body {
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
 }
 
@@ -210,8 +210,13 @@ label {
   margin-left: 216px;
 }
 
-
-
+.register{
+  background-color: #778899;
+  padding: 80px;
+}
+.form-control{
+  border-radius: 0px;
+}
 
 
 // login/register
